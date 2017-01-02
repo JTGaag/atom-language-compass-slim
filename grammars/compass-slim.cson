@@ -3,12 +3,58 @@
 'fileTypes': ['slim']
 
 'patterns': [
-  { 
+  {
     'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
     'name': 'constant.numeric.compass-slim'
   },
   {
     'match': '^--.*'
     'name': 'comment.line.compass-slim'
+  },
+  {
+    'match': '\\b(system)\\s+(\\w+)\\s*'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'entity.name.function.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
+    'match': '\\b(end)\\s+(\\w+)\\s*'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'entity.name.function.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
+    'match': '(features)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '\\b(\\w+):'
+    'name': 'variable.other.compass-slim'
+  },
+  {
+    'match': '(in)'
+    'name': 'storage.modifier.compass-slim'
+  },
+  {
+    'match': '(out)'
+    'name': 'storage.modifier.compass-slim'
+  },
+  {
+    'match': '(data)'
+    'name': 'storage.type.compass-slim'
+  },
+  {
+    'match': '(port)'
+    'name': 'storage.type.compass-slim'
+  },
+  {
+    'match': '(bool)'
+    'name': 'storage.type.compass-slim'
   }
 ]

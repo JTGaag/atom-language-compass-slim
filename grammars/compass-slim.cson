@@ -61,23 +61,23 @@
     'name': 'meta.parameter.compass-slim'
   },
   {
-    'match': '(in)'
+    'match': '\\b(in)'
     'name': 'storage.modifier.compass-slim'
   },
   {
-    'match': '(out)'
+    'match': '\\b(out)'
     'name': 'storage.modifier.compass-slim'
   },
   {
-    'match': '(data)'
+    'match': '\\b(data)'
     'name': 'storage.type.compass-slim'
   },
   {
-    'match': '(port)'
+    'match': '\\b(port)'
     'name': 'storage.type.compass-slim'
   },
   {
-    'match': '(bool)'
+    'match': '\\b(bool)'
     'name': 'storage.type.compass-slim'
   },
   {

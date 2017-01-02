@@ -1,0 +1,17 @@
+{
+  "name": "language-compass-slim",
+  "version": "0.0.0",
+  "description": "SLIM language for COMPASS toolset support. Beginning for more productive editing for master thesis on MBSE in space insustry",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url":
+  },
+  "license": "MIT"
+}

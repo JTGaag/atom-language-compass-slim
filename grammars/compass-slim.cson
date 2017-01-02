@@ -34,8 +34,31 @@
     'name': 'keyword.other.compass-slim'
   },
   {
-    'match': '\\b(\\w+):'
-    'name': 'variable.other.compass-slim'
+    'match': '(subcomponents)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(connections)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(modes)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(transitions)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(states)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '\\b(\\w+)(:)'
+    'captures':
+        '1':
+            'name': 'variable.other.compass-slim'
+    'name': 'meta.parameter.compass-slim'
   },
   {
     'match': '(in)'
@@ -56,5 +79,49 @@
   {
     'match': '(bool)'
     'name': 'storage.type.compass-slim'
+  },
+  {
+    'match': '\\"false\\"'
+    'name': 'constant.language.compass-slim'
+  },
+  {
+    'match': '\\"true\\"'
+    'name': 'constant.language.compass-slim'
+  },
+  {
+    'match': '(when)'
+    'name': 'keyword.operator.compass-slim'
+  },
+  {
+    'match': '(then)'
+    'name': 'keyword.operator.compass-slim'
+  },
+  {
+    'match': '(and)'
+    'name': 'keyword.operator.compass-slim'
+  },
+  {
+    'match': '(or)'
+    'name': 'keyword.operator.compass-slim'
+  },
+  {
+    'match': '(not)'
+    'name': 'keyword.operator.compass-slim'
+  },
+  {
+    'match': '(Default)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(=>)'
+    'name': 'keyword.operator.compass-slim'
+  },
+  {
+    'match': '(initial)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(state)'
+    'name': 'keyword.other.compass-slim'
   }
 ]

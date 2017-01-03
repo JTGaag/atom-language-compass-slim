@@ -254,6 +254,14 @@
     'name': 'keyword.other.compass-slim'
   },
   {
+    'match': '(activation)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(error)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
     'match': '(state)'
     'name': 'keyword.other.compass-slim'
   },

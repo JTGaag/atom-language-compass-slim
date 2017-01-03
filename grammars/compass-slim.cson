@@ -266,6 +266,14 @@
     'name': 'keyword.other.compass-slim'
   },
   {
+    'match': '\\b(occurrence)\\b'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '\\b(poisson)\\b'
+    'name': 'keyword.other.compass-slim'
+  },   
+  {
     'match': '\\b(end)\\b'
     'name': 'keyword.control.compass-slim'
   }

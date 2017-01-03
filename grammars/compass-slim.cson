@@ -99,6 +99,17 @@
     'name': 'meta.function.compass-slim'
   },
   {
+    'match': '\\b(classifier\\()([\\w\\.]+)(\\))'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'entity.name.function.compass-slim'
+        '3':
+            'name': 'keyword.control.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
     'match': '(features)'
     'name': 'keyword.other.compass-slim'
   },
@@ -272,7 +283,7 @@
   {
     'match': '\\b(poisson)\\b'
     'name': 'keyword.other.compass-slim'
-  },   
+  },
   {
     'match': '\\b(end)\\b'
     'name': 'keyword.control.compass-slim'

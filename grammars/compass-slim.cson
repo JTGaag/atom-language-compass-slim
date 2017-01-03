@@ -129,23 +129,43 @@
     'name': 'meta.parameter.compass-slim'
   },
   {
-    'match': '\\b(in)'
+    'match': '\\b(in)\\b'
     'name': 'storage.modifier.compass-slim'
   },
   {
-    'match': '\\b(out)'
+    'match': '\\b(out)\\b'
     'name': 'storage.modifier.compass-slim'
   },
   {
-    'match': '\\b(data)'
+    'match': '\\b(data)\\b'
+    'name': 'entity.name.type.compass-slim'
+  },
+  {
+    'match': '\\b(port)\\b'
+    'name': 'entity.name.type.compass-slim'
+  },
+  {
+    'match': '\\b(bool)\\b'
     'name': 'storage.type.compass-slim'
   },
   {
-    'match': '\\b(port)'
+    'match': '\\b(clock)\\b'
     'name': 'storage.type.compass-slim'
   },
   {
-    'match': '\\b(bool)'
+    'match': '\\b(continuous)\\b'
+    'name': 'storage.type.compass-slim'
+  },
+  {
+    'match': '\\b(enum)\\b'
+    'name': 'storage.type.compass-slim'
+  },
+  {
+    'match': '\\b(int)\\b'
+    'name': 'storage.type.compass-slim'
+  },
+  {
+    'match': '\\b(real)\\b'
     'name': 'storage.type.compass-slim'
   },
   {

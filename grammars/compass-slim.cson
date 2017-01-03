@@ -206,15 +206,15 @@
   },
   {
     'match': '\\b(and)\\b'
-    'name': 'keyword.operator.compass-slim'
+    'name': 'keyword.control.compass-slim'
   },
   {
     'match': '\\b(or)\\b'
-    'name': 'keyword.operator.compass-slim'
+    'name': 'keyword.control.compass-slim'
   },
   {
     'match': '\\b(not)\\b'
-    'name': 'keyword.operator.compass-slim'
+    'name': 'keyword.control.compass-slim'
   },
   {
     'match': '\\b(case)\\b'

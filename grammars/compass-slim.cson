@@ -141,7 +141,15 @@
     'name': 'entity.name.type.compass-slim'
   },
   {
+    'match': '\\b(event)\\b'
+    'name': 'entity.name.type.compass-slim'
+  },
+  {
     'match': '\\b(port)\\b'
+    'name': 'entity.name.type.compass-slim'
+  },
+  {
+    'match': '\\b(flow)\\b'
     'name': 'entity.name.type.compass-slim'
   },
   {
@@ -177,32 +185,60 @@
     'name': 'constant.language.compass-slim'
   },
   {
-    'match': '(when)'
+    'match': '\\b(false)\\b'
+    'name': 'constant.language.compass-slim'
+  },
+  {
+    'match': '\\b(true)\\b'
+    'name': 'constant.language.compass-slim'
+  },
+  {
+    'match': '\\b(when)\\b'
+    'name': 'keyword.control.compass-slim'
+  },
+  {
+    'match': '\\b(while)\\b'
+    'name': 'keyword.control.compass-slim'
+  },
+  {
+    'match': '\\b(then)\\b'
+    'name': 'keyword.control.compass-slim'
+  },
+  {
+    'match': '\\b(and)\\b'
     'name': 'keyword.operator.compass-slim'
   },
   {
-    'match': '(then)'
+    'match': '\\b(or)\\b'
     'name': 'keyword.operator.compass-slim'
   },
   {
-    'match': '(and)'
+    'match': '\\b(not)\\b'
     'name': 'keyword.operator.compass-slim'
   },
   {
-    'match': '(or)'
-    'name': 'keyword.operator.compass-slim'
+    'match': '\\b(case)\\b'
+    'name': 'keyword.control.compass-slim'
   },
   {
-    'match': '(not)'
-    'name': 'keyword.operator.compass-slim'
+    'match': '\\b(otherwise)\\b'
+    'name': 'keyword.control.compass-slim'
   },
   {
-    'match': '(Default)'
+    'match': '\\b(Default)\\b'
     'name': 'keyword.other.compass-slim'
   },
   {
-    'match': '(=>)'
-    'name': 'keyword.operator.compass-slim'
+    'match': '\\b(Observable)\\b'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(\\=\\>)'
+    'name': 'keyword.control.compass-slim'
+  },
+  {
+    'match': '(\\-\\>)'
+    'name': 'keyword.control.compass-slim'
   },
   {
     'match': '(initial)'
@@ -211,5 +247,9 @@
   {
     'match': '(state)'
     'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(end)'
+    'name': 'keyword.control.compass-slim'
   }
 ]

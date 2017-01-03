@@ -12,6 +12,17 @@
     'name': 'comment.line.compass-slim'
   },
   {
+    'match': '\\b(system)\\s(implementation)\\s+([\\w\\.]+)\\s*'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'keyword.control.compass-slim'
+        '3':
+            'name': 'entity.name.function.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
     'match': '\\b(system)\\s+(\\w+)\\s*'
     'captures':
         '1':
@@ -21,7 +32,7 @@
     'name': 'meta.function.compass-slim'
   },
   {
-    'match': '\\b(system)\\s+(implementation)\\s+(\\w+.\\w+)\\s*'
+    'match': '\\b(bus)\\s(implementation)\\s+([\\w\\.]+)\\s*'
     'captures':
         '1':
             'name': 'keyword.control.compass-slim'
@@ -33,6 +44,35 @@
   },
   {
     'match': '\\b(bus)\\s+(\\w+)\\s*'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'entity.name.function.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
+    'match': '\\b(error model)\\s(implementation)\\s+([\\w\\.]+)\\s*'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'keyword.control.compass-slim'
+        '3':
+            'name': 'entity.name.function.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
+    'match': '\\b(error model)\\s+(\\w+)\\s*'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'entity.name.function.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
+    'match': '\\b(end)\\s+([\\w\\.]+)\\s*'
     'captures':
         '1':
             'name': 'keyword.control.compass-slim'

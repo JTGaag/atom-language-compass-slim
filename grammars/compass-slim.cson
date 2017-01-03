@@ -21,6 +21,17 @@
     'name': 'meta.function.compass-slim'
   },
   {
+    'match': '\\b(system)\\s+(implementation)\\s+(\\w+.\\w+)\\s*'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'keyword.control.compass-slim'
+        '3':
+            'name': 'entity.name.function.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
     'match': '\\b(bus)\\s+(\\w+)\\s*'
     'captures':
         '1':

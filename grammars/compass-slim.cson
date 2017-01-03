@@ -250,23 +250,23 @@
     'name': 'keyword.control.compass-slim'
   },
   {
-    'match': '(initial)'
+    'match': '\\b(initial)\\b'
     'name': 'keyword.other.compass-slim'
   },
   {
-    'match': '(activation)'
+    'match': '\\b(activation)\\b'
     'name': 'keyword.other.compass-slim'
   },
   {
-    'match': '(error)'
+    'match': '\\b(error)\\b'
     'name': 'keyword.other.compass-slim'
   },
   {
-    'match': '(state)'
+    'match': '\\b(state)\\b'
     'name': 'keyword.other.compass-slim'
   },
   {
-    'match': '(end)'
+    'match': '\\b(end)\\b'
     'name': 'keyword.control.compass-slim'
   }
 ]

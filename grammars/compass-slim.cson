@@ -110,6 +110,17 @@
     'name': 'meta.function.compass-slim'
   },
   {
+    'match': '\\b(reference\\()([\\w]+)(\\))'
+    'captures':
+        '1':
+            'name': 'keyword.control.compass-slim'
+        '2':
+            'name': 'variable.other.compass-slim'
+        '3':
+            'name': 'keyword.control.compass-slim'
+    'name': 'meta.function.compass-slim'
+  },
+  {
     'match': '(features)'
     'name': 'keyword.other.compass-slim'
   },

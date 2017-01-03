@@ -94,6 +94,14 @@
     'name': 'keyword.other.compass-slim'
   },
   {
+    'match': '(properties)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
+    'match': '(events)'
+    'name': 'keyword.other.compass-slim'
+  },
+  {
     'match': '(subcomponents)'
     'name': 'keyword.other.compass-slim'
   },
